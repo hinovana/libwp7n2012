@@ -1,0 +1,939 @@
+<?xml version="1.0"?>
+<Setting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<HorseRaceExtensions>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>3670ee40-1181-426e-8a28-1c2b9471947f</Guid>
+			<Title>母馬の牝系図を表示する</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadOnly</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>6c83e4a2-93a9-4863-a92f-88731044d269</Guid>
+			<Title>調子上向き</Title>
+			<Description>調子を上向きにする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>e3f40cd3-2fe5-461a-a01d-98fc9e319751</Guid>
+			<Title>調子下向き</Title>
+			<Description>調子を下向きにする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>2cf12a35-07e1-4f8a-8336-9203f28caf3e</Guid>
+			<Title>調子絶好調</Title>
+			<Description>調子を絶好調にする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>a3e3492d-5877-4b06-b528-aff6c7814666</Guid>
+			<Title>調子 +5</Title>
+			<Description>調子を+5する</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>5ea0189a-0e43-4311-906e-37ea39255e7e</Guid>
+			<Title>調子 -5</Title>
+			<Description>調子を-5する</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid /><Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>579d0d03-2162-4644-8adc-0e782205c6ab</Guid>
+			<Title>疲労全回復</Title>
+			<Description>疲労を全回復する</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>731b5700-cd4e-42f4-bd1d-ee96cb13aa3f</Guid>
+			<Title>疲労 +5</Title>
+			<Description>疲労を+5する</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>b468e118-863f-4eae-9d81-43a16026ce27</Guid>
+			<Title>疲労 -5</Title>
+			<Description>疲労を-5する</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Guid />
+			<Title />
+			<Description />
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>958cdbb1-6b9b-4372-9409-82494284ebb4</Guid>
+			<Title>競走寿命全回復</Title>
+			<Description>競走寿命を全回復する</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>7f189466-88c5-4b54-811d-d327bd9a579a</Guid>
+			<Title>競走寿命 +5</Title>
+			<Description>競走寿命を+5する</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>11a48e93-e54d-421e-a092-9c6cd4321ff2</Guid>
+			<Title>競走寿命 -5</Title>
+			<Description>競走寿命を-5する</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Guid />
+			<Title />
+			<Description />
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>bc5e01d8-bee5-41a6-b10d-d69c4d7158ce</Guid>
+			<Title>成長度全成長</Title>
+			<Description>成長度を全成長する</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>b7d60307-903e-4e79-a666-15d271ce52a8</Guid>
+			<Title>成長度 +5</Title>
+			<Description>成長度を+5する</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>ae92d7dc-98d2-44c9-9b94-0d33dff38a9d</Guid>
+			<Title>成長度 -5</Title>
+			<Description>成長度を-5する</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Guid />
+			<Title />
+			<Description />
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>01d62b6e-d3d9-4e90-b7b1-2644f7e42abb</Guid>
+			<Title>気性良化</Title>
+			<Description>気性を1良くする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>a492d74c-2752-4e0f-8875-e544dd3e0da1</Guid>
+			<Title>気性悪化</Title>
+			<Description>気性を1悪くする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Guid />
+			<Title />
+			<Description />
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>c2c68a1e-cff3-49f1-a250-cc1c1a0bc374</Guid>
+			<Title>持病取り除く</Title>
+			<Description>持病取り除く</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Guid />
+			<Title />
+			<Description />
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>1bf2bec9-a252-4a6f-bd0b-fe0af7166080</Guid>
+			<Title>成長上限110</Title>
+			<Description>成長上限を110にする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+	</HorseRaceExtensions>
+	
+	<HorseChildExtensions>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>95f39266-2975-44fc-a54d-8f23bbdff728</Guid>
+			<Title>母馬の牝系図を表示する</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadOnly</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Guid />
+			<Title />
+			<Description />
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>8201fb56-f923-42eb-a6d0-6b404adcb470</Guid>
+			<Title>すごい馬にする</Title>
+			<Description>幼駒の能力アップする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>666c1a42-e3c5-402c-9614-024af45e9749</Guid>
+			<Title>だめな馬にする</Title>
+			<Description>幼駒の能力ダウンする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Guid />
+			<Title />
+			<Description />
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>c2253bc4-f1f9-4b3f-926a-53f0bb102ebf</Guid>
+			<Title>気性良化</Title>
+			<Description>気性を1良くする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>f3604d55-cdc8-47e5-a21a-4119d941c043</Guid>
+			<Title>気性悪化</Title>
+			<Description>気性を1悪くする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Guid />
+			<Title />
+			<Description />
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>a0f1755d-9c79-45a5-8d96-e909586bff77</Guid>
+			<Title>持病取り除く</Title>
+			<Description>持病取り除く</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Guid />
+			<Title />
+			<Description />
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>130e6790-b344-4745-8339-c959c2344eaf</Guid>
+			<Title>成長上限110</Title>
+			<Description>成長上限を110にする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+	</HorseChildExtensions>
+	
+	
+	
+	<HorseDamExtensions>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>e938565d-2c95-4d02-bfc5-ba5db8c4d12f</Guid>
+			<Title>牝系図を表示する</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadOnly</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Guid />
+			<Title />
+			<Description />
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>3103d74b-fcc5-4d52-93a8-e0eb60e3afe6</Guid>
+			<Title>すごい馬にする</Title>
+			<Description>繁殖牝馬の能力アップする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>f9c47dc0-e3f2-4c40-b294-74112fcbaba7</Guid>
+			<Title>だめな馬にする</Title>
+			<Description>繁殖牝馬の能力ダウンする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>b35e8644-c1fe-4a9d-b185-4dcace1e1f7c</Guid>
+			<Title>子出し +1</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>f3411c43-a80f-4ee4-ac6b-fb2b6f988143</Guid>
+			<Title>子出し -1</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>252eab3c-2bdf-4afa-aa9b-3565937fd1f7</Guid>
+			<Title>子出しを15にセットする</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>ab9441be-034a-49f3-807f-ffd3082bb82e</Guid>
+			<Title>子出しを10にセットする</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>9c3f32f9-2512-468b-bf57-c517d6969a23</Guid>
+			<Title>子出しを0にセットする</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>8ff122f6-af45-408c-9c1b-5a24f9d7bb03</Guid>
+			<Title>日本牧場に強奪</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>e7a82661-8890-4d8a-9c1a-7e4532212a55</Guid>
+			<Title>米国牧場に強奪</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>1c86bf9f-3626-45f8-b7fd-35cb1f11329e</Guid>
+			<Title>欧州牧場に強奪</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>3466d46a-877f-4a3c-affd-8efd8d331d86</Guid>
+			<Title>現役復帰させる</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>616ff771-4f40-4e2a-93ac-896e6170296f</Guid>
+			<Title>年齢 +1</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>e22261ce-0542-452f-9bb6-8a69b51e6cd2</Guid>
+			<Title>年齢 -1</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>61d730b5-eb78-428c-91b7-b0a3fd610ee2</Guid>
+			<Title>因子次へ</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+	</HorseDamExtensions>
+	
+	<HorseSireExtensions>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>501164da-a947-496e-aa0a-a2055bec83cd</Guid>
+			<Title>牝系図を表示する</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadOnly</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>b277a377-cb48-4f7a-ba1a-ac344e0024f4</Guid>
+			<Title>ブックフル解除</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>c697b766-5b33-424b-bb81-586c0765f302</Guid>
+			<Title>シンジケート解散</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Index>0</Index>
+			<Title />
+			<Description />
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>704fd1c8-635e-40ee-81e5-ffdabe02ec70</Guid>
+			<Title>すごい馬にする</Title>
+			<Description>種牡馬の能力アップする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>d077aeca-6daa-417a-92b1-ba83f1c44754</Guid>
+			<Title>だめな馬にする</Title>
+			<Description>種牡馬の能力ダウンする</Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>491573a5-efc6-423f-a0be-bb283866060f</Guid>
+			<Title>子出し +1</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>9fffe4b6-efcc-4392-a327-17d5908da2d9</Guid>
+			<Title>子出し -1</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>3473bea7-d691-46fe-b0fd-fde0453f60a7</Guid>
+			<Title>子出しを15にセットする</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>79ac93b5-3e4a-41c0-aadc-98fe376a449b</Guid>
+			<Title>子出しを10にセットする</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>15efb067-5f57-4db7-81fc-432d2012b672</Guid>
+			<Title>子出しを0にセットする</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>600c2197-9b72-4208-a034-c6366509651c</Guid>
+			<Title>日本牧場に強奪</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>24e1ada4-e97c-49fc-a8ca-9f6dfab423ed</Guid>
+			<Title>米国牧場に強奪</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>a5874f6f-9ac5-40f5-9647-47703e28b235</Guid>
+			<Title>欧州牧場に強奪</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>fb9a7959-5ff9-483d-985e-67381b89a51b</Guid>
+			<Title>現役復帰させる</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>c03d36cd-43ea-4162-85f1-3b1f2ee3cddf</Guid>
+			<Title>年齢 +1</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>c5906361-896c-493a-8df7-a4941a1c529b</Guid>
+			<Title>年齢 -1</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid />
+			<Title />
+			<Description />
+			<Index>0</Index>
+			<Type>SEPARATOR</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>e0dddd39-5d81-4757-a301-353b3663cca0</Guid>
+			<Title>因子左 次へ</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+		<Command>
+			<Engine>CSharp</Engine>
+			<Guid>1194cb5b-aeb5-4557-b930-34884e417c7b</Guid>
+			<Title>因子右 次へ</Title>
+			<Description></Description>
+			<Index>0</Index>
+			<Type>BUTTON</Type>
+			<Manifest>
+				<Mode>ReadWrite</Mode>
+			</Manifest>
+		</Command>
+	</HorseSireExtensions>
+</Setting>

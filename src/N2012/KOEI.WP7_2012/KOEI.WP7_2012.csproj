@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{792267C1-25E4-4961-8F8C-D8E39D229B75}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KOEI.WP7_2012</RootNamespace>
+    <AssemblyName>KOEI.WP7_2012</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\KOEI.WP7_2012.xml</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\KOEI.WP7_2012.xml</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigurationInterface.cs" />
+    <Compile Include="DatastructInterface.cs" />
+    <Compile Include="DataStructPropertyInfo.cs" />
+    <Compile Include="Horse\BloodLineTree.cs" />
+    <Compile Include="Horse\Breeding\Breeding.cs" />
+    <Compile Include="Horse\Breeding\CombinationPointInfo.cs" />
+    <Compile Include="Horse\Breeding\Combination\Combination.cs" />
+    <Compile Include="Horse\Breeding\Combination\Inbreed.cs" />
+    <Compile Include="Horse\Breeding\Enums.cs" />
+    <Compile Include="Horse\Area.cs" />
+    <Compile Include="Horse\FamilyLineInfo.cs" />
+    <Compile Include="Horse\Pedigree.cs" />
+    <Compile Include="Horse\Breeding\PointRiskPair.cs" />
+    <Compile Include="MemoryTable\HorseAblDataTable.cs" />
+    <Compile Include="MemoryTable\HorseBloodTable.cs" />
+    <Compile Include="MemoryTable\HorseChildTable.cs" />
+    <Compile Include="MemoryTable\HorseDamTable.cs" />
+    <Compile Include="MemoryTable\HorseFamilyLineTable.cs" />
+    <Compile Include="MemoryTable\HorseNameTableConfiguration.cs" />
+    <Compile Include="MemoryTable\HorseOwnershipChildTable.cs" />
+    <Compile Include="MemoryTable\HorseOwnershipRaceTable.cs" />
+    <Compile Include="MemoryTable\HorseRaceTable.cs" />
+    <Compile Include="MemoryTable\HorseSireTable.cs" />
+    <Compile Include="MemoryTable\ProcessMemoryTable.cs" />
+    <Compile Include="MemoryTable\ProcessMemoryTableConfiguration.cs" />
+    <Compile Include="MemoryTable\RaceDataTable.cs" />
+    <Compile Include="MemoryTable\RaceNameTable.cs" />
+    <Compile Include="MemoryTable\RaceNameTableConfiguration.cs" />
+    <Compile Include="MemoryTable\RaceProgramTable.cs" />
+    <Compile Include="Race\Name\NameData.cs" />
+    <Compile Include="ReadWriteMode.cs" />
+    <Compile Include="WP7.cs" />
+    <Compile Include="Datastruct.cs" />
+    <Compile Include="Horse\Helper\ProcessMemory.cs" />
+    <Compile Include="Horse\Helper\KoeiCode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Horse\Helper\Win32API.cs" />
+    <Compile Include="Horse\Name\NameData.cs" />
+    <Compile Include="MemoryTable\HorseNameTable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

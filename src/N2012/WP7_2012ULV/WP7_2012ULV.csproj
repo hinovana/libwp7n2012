@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{09662544-404F-460A-8C8A-7A210F3622A8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WP7_2012ULV</RootNamespace>
+    <AssemblyName>WP7_2012ULV</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+    <ApplicationIcon>libwp7n2012.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Breeding\Controls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Breeding\Controls.Designer.cs">
+      <DependentUpon>Controls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Breeding\BreedingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Breeding\BreedingForm.Designer.cs">
+      <DependentUpon>BreedingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Breeding\BreedingToDamListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Breeding\BreedingToSireListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Breeding\Setting.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="Enums\Enum.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpoilerLikeEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpoilerLikeEditForm.Designer.cs">
+      <DependentUpon>SpoilerLikeEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UMAListView\Sorter\MergeSort.cs" />
+    <Compile Include="Setting\VersionConfig.cs" />
+    <Compile Include="ToolStripRadioButtonMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Setting\MainFormSetting.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Breeding\Controls.resx">
+      <DependentUpon>Controls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Breeding\BreedingForm.resx">
+      <DependentUpon>BreedingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpoilerLikeEditForm.resx">
+      <DependentUpon>SpoilerLikeEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMAListView\UMAListViewTpl.resx">
+      <DependentUpon>UMAListViewTpl.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UMAListView\UMAListViewTpl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UMAListView\UMAListViewTpl.Designer.cs">
+      <DependentUpon>UMAListViewTpl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HorseChildListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HorseDamListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HorseSireListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HorseRaceListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UMAListView\Config.cs" />
+    <Compile Include="UMAListView\Setting.cs" />
+    <Compile Include="Setting\ExtensionSetting.cs" />
+    <Compile Include="Setting\ProgramSetting.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KOEI.WP7_2012.Configuration\KOEI.WP7_2012.Configuration.csproj">
+      <Project>{4F90D7E6-F77D-40F2-B34A-CBC56456E73A}</Project>
+      <Name>KOEI.WP7_2012.Configuration.V100</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KOEI.WP7_2012\KOEI.WP7_2012.csproj">
+      <Project>{792267C1-25E4-4961-8F8C-D8E39D229B75}</Project>
+      <Name>KOEI.WP7_2012</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SpoilerLikeControls\SpoilerLikeControls.csproj">
+      <Project>{9AE32E09-FF8A-42E5-9DBB-A360E6963155}</Project>
+      <Name>SpoilerLikeControls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libwp7n2012.ico" />
+    <None Include="Resources\SettingIcon.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

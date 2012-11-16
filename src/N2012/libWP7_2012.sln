@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP7_2012ULV", "WP7_2012ULV\WP7_2012ULV.csproj", "{09662544-404F-460A-8C8A-7A210F3622A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KOEI.WP7_2012", "KOEI.WP7_2012\KOEI.WP7_2012.csproj", "{792267C1-25E4-4961-8F8C-D8E39D229B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KOEI.WP7_2012.Configuration", "KOEI.WP7_2012.Configuration\KOEI.WP7_2012.Configuration.csproj", "{4F90D7E6-F77D-40F2-B34A-CBC56456E73A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpoilerLikeControls", "SpoilerLikeControls\SpoilerLikeControls.csproj", "{9AE32E09-FF8A-42E5-9DBB-A360E6963155}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09662544-404F-460A-8C8A-7A210F3622A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09662544-404F-460A-8C8A-7A210F3622A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09662544-404F-460A-8C8A-7A210F3622A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09662544-404F-460A-8C8A-7A210F3622A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{792267C1-25E4-4961-8F8C-D8E39D229B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792267C1-25E4-4961-8F8C-D8E39D229B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792267C1-25E4-4961-8F8C-D8E39D229B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792267C1-25E4-4961-8F8C-D8E39D229B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F90D7E6-F77D-40F2-B34A-CBC56456E73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F90D7E6-F77D-40F2-B34A-CBC56456E73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F90D7E6-F77D-40F2-B34A-CBC56456E73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F90D7E6-F77D-40F2-B34A-CBC56456E73A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE32E09-FF8A-42E5-9DBB-A360E6963155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE32E09-FF8A-42E5-9DBB-A360E6963155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE32E09-FF8A-42E5-9DBB-A360E6963155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE32E09-FF8A-42E5-9DBB-A360E6963155}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
