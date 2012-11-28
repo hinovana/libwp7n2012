@@ -5,8 +5,7 @@ libwp7n2012
 
 バイナリダウンロードはGoogle Codeから
 -----------
-
-[libwp7n2012]: http://code.google.com/p/libwp7n2012/ "http://code.google.com/p/libwp7n2012/"
+[libwp7n2012 - Winning Post 7 2012 Cheat Library - Google Project Hosting](http://code.google.com/p/libwp7n2012/)
 
 
 
