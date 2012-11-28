@@ -5,7 +5,7 @@ libwp7n2012
 
 バイナリダウンロードはGoogle Codeから
 -----------
-[http://code.google.com/p/libwp7n2012/]: http://code.google.com/p/libwp7n2012/ "http://code.google.com/p/libwp7n2012/"
+[libwp7n2012]: http://code.google.com/p/libwp7n2012/ "http://code.google.com/p/libwp7n2012/"
 
 
 
