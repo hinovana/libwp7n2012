@@ -17,8 +17,8 @@ Winning Post 7 2012 Cheat Library
 .NET Frameworkアセンブリ(DLL)なので
 PythonやRubyなどの人気言語でスクリプティングすることも可能です
 
-[IronPython](http://ironpython.codeplex.com/)
-[IronRuby](http://ironruby.net/)
+* [IronPython](http://ironpython.codeplex.com/)
+* [IronRuby](http://ironruby.net/)
 
 
 Example
