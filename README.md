@@ -34,14 +34,14 @@ include KOEI::WP7_2012
 
 ## トランザクション開始
 config = Configuration::V100.new
-wp = WP7.new( config.ProcessName, config )
+wp = WP7.new(config.ProcessName, config)
 
 wp.HDamTable.RecordCount.times do |horse_num|
   ## 繁殖牝馬テーブルからレコードを取得する
-  dam_data = wp.HDamTable.GetData( horse_num, Datastruct::HDamData.new )
+  dam_data = wp.HDamTable.GetData(horse_num, Datastruct::HDamData.new)
   
   ## 能力データテーブルからレコードを取得する
-  abl_data = wp.HAblTable.GetData( dam_data.abl_num, Datastruct::HAblData.new )
+  abl_data = wp.HAblTable.GetData(dam_data.abl_num, Datastruct::HAblData.new)
   
   ## 自牧場以外なら次のレコードに
   next if abl_data.bokuzyou != 25
@@ -50,7 +50,7 @@ wp.HDamTable.RecordCount.times do |horse_num|
   abl_data.kodashi = 10
   
   ## テーブルにセットする(Commitするまでは実際にはプロセスメモリに書き込まれない)
-  wp.HAblTable.SetData( dam_data.abl_num, abl_data )
+  wp.HAblTable.SetData(dam_data.abl_num, abl_data)
 end
 
 ## テーブルをプロセスメモリに書き込む
@@ -67,22 +67,22 @@ include KOEI::WP7_2012
 
 ## トランザクション開始
 config = Configuration::V100.new
-wp = WP7.new( config.ProcessName, config )
+wp = WP7.new(config.ProcessName, config)
 
 wp.HOwnershipRaceTable.RecordCount.times do |num|
   ## 所有競走馬テーブルからレコードを取得する
-  data = wp.HOwnershipRaceTable.GetData( num, Datastruct::HOwnershipRaceData.new )
+  data = wp.HOwnershipRaceTable.GetData(num, Datastruct::HOwnershipRaceData.new)
   
   ## 空きを示す所有競走馬の番号なら次に
   next if num == wp.config.NullOwnershipRaceHorseNumber
   
   ## メモ1～29までを開ける
   (1..29).each do |i|
-    data.instance_eval( sprintf( "data.memo_open_%d = 1", i ) )
+    data.method("memo_open_#{i}=").call(1)
   end
   
   ## テーブルにセットする(Commitするまでは実際にはプロセスメモリに書き込まれない)
-  wp.HOwnershipRaceTable.SetData( num, data )
+  wp.HOwnershipRaceTable.SetData(num, data)
 end
 
 ## テーブルをプロセスメモリに書き込む
