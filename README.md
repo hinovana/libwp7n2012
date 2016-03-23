@@ -93,3 +93,5 @@ wp.HOwnershipRaceTable.Commit
 
 ### WP7_2012ULV(馬リストビュー)
 
+<img src="http://www.sengoku.cn/bbs/data/attachment/forum/pw/Mon_1204/21_90521_52f26a03c59090b.gif" />
+
