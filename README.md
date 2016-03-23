@@ -1,5 +1,3 @@
-<!-- -*- coding: utf-8 -*- -->
-
 libwp7n2012
 ===========
 
@@ -95,5 +93,3 @@ wp.HOwnershipRaceTable.Commit
 
 ### WP7_2012ULV(馬リストビュー)
 
-![ulv](http://img696.imageshack.us/img696/3156/clip1c.png?test=1)
-![ulv](http://img7.imageshack.us/img7/9321/clip2w.png)
